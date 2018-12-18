@@ -1,3 +1,5 @@
+vps安装代码
+
 1:wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh
 
 2:chmod +x ./kcptun.sh
