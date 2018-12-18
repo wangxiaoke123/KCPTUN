@@ -6,6 +6,9 @@
 
 3:./kcptun.sh
 
+也可以用下面的一步代码
+
+wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh && chmod +x ./kcptun.sh && ./kcptun.sh
 
 启动：
 supervisorctl start kcptun
