@@ -10,6 +10,10 @@
 
 wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh && chmod +x ./kcptun.sh && ./kcptun.sh
 
+或者我自己的
+
+wget --no-check-certificate https://github.com/wangxiaoke123/kcptun/raw/master/kcptun/kcptun.sh && chmod +x ./kcptun.sh && ./kcptun.sh
+
 启动：
 supervisorctl start kcptun
 
