@@ -28,3 +28,8 @@ supervisorctl status kcptun
 
 卸载：
 ./kcptun.sh uninstall
+
+如果出现问题如：Starting supervisor: Error: Another program is already listening on a port that one of our HTTP servers is configured to use.  Shut this program down first before starting supervisord.
+For help, use /usr/bin/supervisord -h
+
+通过解除.sock file的连接来解决问题:sudo unlink /var/run/supervisor.sock
