@@ -34,3 +34,6 @@ Starting supervisor: Error: Another program is already listening on a port that 
 For help, use /usr/bin/supervisord -h
 
 通过解除.sock file的连接来解决问题:sudo unlink /var/run/supervisor.sock
+
+## kcptun客户端下载
+https://github.com/xtaci/kcptun/releases
