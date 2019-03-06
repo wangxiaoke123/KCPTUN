@@ -14,6 +14,8 @@ wget --no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/
 
 wget --no-check-certificate https://github.com/wangxiaoke123/kcptun/raw/master/kcptun/kcptun.sh && chmod +x ./kcptun.sh && ./kcptun.sh
 
+原作者已删除bin文件，需要手动下载自己包里的bin文件
+
 启动：
 supervisorctl start kcptun
 
